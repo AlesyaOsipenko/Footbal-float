@@ -1,0 +1,45 @@
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../css/images/Football.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.man {
+    width: 1110px;
+    height: 830px;
+    clip-path: polygon(0% 7%, 69% 6%, 74% 34%, 71% 50%, 82% 94%, 82% 104%, 3% 114%, -7% 30%);
+    float: left;
+    shape-outside: polygon(0% 7%, 69% 6%, 74% 34%, 71% 50%, 82% 94%, 82% 104%, 3% 114%, -7% 30%);
+}
+
+.title {
+    color:#ffffff;
+    font-size: 55px;
+    margin-bottom: 20px;
+    padding: 85px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 29px;
+    margin-bottom: 10px;
+    color: #f3f3f3;
+    font-size:25px;
+    max-width: 1500px;
+}
